@@ -1,0 +1,16 @@
+// to manage ts files and to save js generated files in separate folder 
+
+$tsc --init
+
+then tsconfig.json file got created --- change or uncomment the rootDir and outDir and give path
+Save
+
+$tsc
+
+$tsc -w
+
+now any file created its compiled file will be redirected to given path
+
+
+
+
